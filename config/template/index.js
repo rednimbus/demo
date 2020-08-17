@@ -1,16 +1,12 @@
-const staticHost = 'https://pics.lvjs.com.cn/jtour/libs/'
+const staticHost = 'https://cdn.jsdelivr.net/npm/'
 
 exports.libs = {
-    'fastclick': `${staticHost}fastclick.js`,
-    'vue': `${staticHost}vue-2.5.16.js`,
-    'axios': `${staticHost}axios-0.18.1.js`,
-    'vue-router': `${staticHost}vue-router-3.07.js`,
-    'vuex': `${staticHost}vuex-3.5.1.js`,
-    'moment': `${staticHost}moment.min.js`,
-    'js-md5': `${staticHost}md5.min.js`,
-    'weui.js': `${staticHost}weui.min.js`,
-    'vue-lazyload': `${staticHost}vue-lazyload.js`,
-    'vue-i18n': `${staticHost}vue-i18n.min.js`,
+    'fastclick': `${staticHost}fastclick@1.0.6/lib/fastclick.min.js`,
+    'vue': `${staticHost}vue@2.6.11/dist/vue.runtime.min.js`,
+    'axios': `${staticHost}axios@0.19.2/dist/axios.min.js`,
+    'vue-router': `${staticHost}vue-router@3.4.3/dist/vue-router.min.js`,
+    'vuex': `${staticHost}vuex@3.5.1/dist/vuex.min.js`,
+    'vue-lazyload': `${staticHost}vue-lazyload@1.3.3/vue-lazyload.min.js`,
     'wx-sdk': 'https://res.wx.qq.com/open/js/jweixin-1.3.2.js'
 };
 

@@ -1,0 +1,7 @@
+
+{
+    "mode": "mpa",
+    "spaMode": "",
+    "title": "home",
+    "libs": ["fastclick", "vue", "axios"]
+}
